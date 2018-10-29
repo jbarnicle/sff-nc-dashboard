@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Collapsible sidebar using Bootstrap 4</title>\
+    <title>Collapsible sidebar using Bootstrap 4</title>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
@@ -40,10 +40,10 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">Mission</a>
+                    <a href="/index.php">Mission</a>
                 </li>
                 <li>
-                    <a href="#">Indicators</a>
+                    <a href="/Indicators.php">Indicators</a>
                 </li>
                 <li>
                     <a href="#">Initiatives</a>

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Collapsible sidebar using Bootstrap 4</title>\
+    <title>Collapsible sidebar using Bootstrap 4</title>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
@@ -25,17 +25,15 @@
         .col-md-4 { border: 0px solid red; } 
 
         .carousel-control.left, .carousel-control.right {
-   background-image:none !important;
-   filter:none !important;
-}
+            background-image:none !important;
+            filter:none !important;
+        }
     </style>
 </head>
 
 <body>
-
     <div id="wrapper">
-        <div class="overlay"></div>
-    
+        <div class="overlay"></div>  
         <!-- Sidebar -->
         <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
             <ul class="nav sidebar-nav">
@@ -225,7 +223,8 @@ $(document).ready(function () {
   $('[data-toggle="offcanvas"]').click(function () {
         $('#wrapper').toggleClass('toggled');
   });  
-});    </script>
+});    
+</script>
   
     <script>
 
