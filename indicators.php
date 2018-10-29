@@ -46,7 +46,7 @@
                     <a href="/index.php">Mission</a>
                 </li>
                 <li>
-                    <a href="/Indicators.php">indicators</a>
+                    <a href="/indicators.php">indicators</a>
                 </li>
                 <li>
                     <a href="#">Initiatives</a>
