@@ -121,7 +121,7 @@
                         <p>The mission of the North Chicago Project is to increase, substantially, the percentage of North Chicago children who will earn a quality post-secondary credential.</p>
                     </div>
                     <div class="col-md-7">
-                        <div id="container2"></div>
+                        <div id="container2" style="min-width: 310px; max-width: 800px; height: 400px; margin: 0 auto"></div>
                     </div>
                 </div>
             </div>
@@ -217,7 +217,18 @@ $(document).ready(function () {
   
   $('[data-toggle="offcanvas"]').click(function () {
         $('#wrapper').toggleClass('toggled');
-  });  
+  });
+  $(".carousel").swipe({
+
+  swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
+
+    if (direction == 'left') $(this).carousel('next');
+    if (direction == 'right') $(this).carousel('prev');
+
+  },
+  allowPageScroll:"vertical"
+
+});  
 });    
 </script>
   
@@ -268,9 +279,6 @@ $(document).ready(function () {
         data: [50]
     }]
 });
-</script>
-
-    <script>
 
         Highcharts.chart('container2', {
     chart: {
