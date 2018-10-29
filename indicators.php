@@ -107,7 +107,7 @@
                         <p>The mission of the North Chicago Project is to increase, substantially, the percentage of North Chicago children who will earn a quality post-secondary credential.</p>
                     </div>
                     <div class="col-md-7">
-                        <div id="container"></div>
+                        <div id="container1"></div>
                     </div>
                 </div>
             </div>
@@ -121,7 +121,7 @@
                         <p>The mission of the North Chicago Project is to increase, substantially, the percentage of North Chicago children who will earn a quality post-secondary credential.</p>
                     </div>
                     <div class="col-md-7">
-                        <div id="container"></div>
+                        <div id="container2"></div>
                     </div>
                 </div>
             </div>
@@ -135,7 +135,7 @@
                         <p>The mission of the North Chicago Project is to increase, substantially, the percentage of North Chicago children who will earn a quality post-secondary credential.</p>
                     </div>
                     <div class="col-md-7">
-                        <div id="container"></div>
+                        <div id="container3"></div>
                     </div>
                 </div>
             </div>
@@ -149,7 +149,7 @@
                         <p>The mission of the North Chicago Project is to increase, substantially, the percentage of North Chicago children who will earn a quality post-secondary credential.</p>
                     </div>
                     <div class="col-md-7">
-                        <div id="container"></div>
+                        <div id="container4"></div>
                     </div>
                 </div>
             </div>
@@ -163,7 +163,7 @@
                         <p>The mission of the North Chicago Project is to increase, substantially, the percentage of North Chicago children who will earn a quality post-secondary credential.</p>
                     </div>
                     <div class="col-md-7">
-                        <div id="container"></div>
+                        <div id="container5"></div>
                     </div>
                 </div>
             </div>
@@ -180,11 +180,6 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
-
-
-
-
-
 
             </div>
         </div>
@@ -228,7 +223,7 @@ $(document).ready(function () {
   
     <script>
 
-        Highcharts.chart('container', {
+        Highcharts.chart('container1', {
     chart: {
         type: 'column'
     },
@@ -275,6 +270,198 @@ $(document).ready(function () {
 });
 </script>
 
+    <script>
+
+        Highcharts.chart('container2', {
+    chart: {
+        type: 'column'
+    },
+    title: {
+        text: 'School-ready at Kindergarten'
+    },
+    xAxis: {
+        categories: [''
+        ],
+        crosshair: true
+    },
+    yAxis: {
+        min: 0,
+        title: {
+            text: 'Percent'
+        }
+    },
+    tooltip: {
+        headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+        pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+            '<td style="padding:0"><b>{point.y:.1f} %</b></td></tr>',
+        footerFormat: '</table>',
+        shared: true,
+        useHTML: true
+    },
+    plotOptions: {
+        column: {
+            pointPadding: 0.2,
+            borderWidth: 0
+        }
+    },
+    series: [{
+        name: 'Baseline<br>(2017)',
+        data: [6]
+
+    }, {
+        name: 'Current<br>(2018)',
+        data: [7]
+
+    }, {
+        name: 'Goal<br>(2028)',
+        data: [50]
+    }]
+});
+</script>
+    <script>
+
+        Highcharts.chart('container3', {
+    chart: {
+        type: 'column'
+    },
+    title: {
+        text: 'School-ready at Kindergarten'
+    },
+    xAxis: {
+        categories: [''
+        ],
+        crosshair: true
+    },
+    yAxis: {
+        min: 0,
+        title: {
+            text: 'Percent'
+        }
+    },
+    tooltip: {
+        headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+        pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+            '<td style="padding:0"><b>{point.y:.1f} %</b></td></tr>',
+        footerFormat: '</table>',
+        shared: true,
+        useHTML: true
+    },
+    plotOptions: {
+        column: {
+            pointPadding: 0.2,
+            borderWidth: 0
+        }
+    },
+    series: [{
+        name: 'Baseline<br>(2017)',
+        data: [6]
+
+    }, {
+        name: 'Current<br>(2018)',
+        data: [7]
+
+    }, {
+        name: 'Goal<br>(2028)',
+        data: [50]
+    }]
+});
+</script>
+    <script>
+
+        Highcharts.chart('container4', {
+    chart: {
+        type: 'column'
+    },
+    title: {
+        text: 'School-ready at Kindergarten'
+    },
+    xAxis: {
+        categories: [''
+        ],
+        crosshair: true
+    },
+    yAxis: {
+        min: 0,
+        title: {
+            text: 'Percent'
+        }
+    },
+    tooltip: {
+        headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+        pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+            '<td style="padding:0"><b>{point.y:.1f} %</b></td></tr>',
+        footerFormat: '</table>',
+        shared: true,
+        useHTML: true
+    },
+    plotOptions: {
+        column: {
+            pointPadding: 0.2,
+            borderWidth: 0
+        }
+    },
+    series: [{
+        name: 'Baseline<br>(2017)',
+        data: [6]
+
+    }, {
+        name: 'Current<br>(2018)',
+        data: [7]
+
+    }, {
+        name: 'Goal<br>(2028)',
+        data: [50]
+    }]
+});
+</script>
+    <script>
+
+        Highcharts.chart('container5', {
+    chart: {
+        type: 'column'
+    },
+    title: {
+        text: 'School-ready at Kindergarten'
+    },
+    xAxis: {
+        categories: [''
+        ],
+        crosshair: true
+    },
+    yAxis: {
+        min: 0,
+        title: {
+            text: 'Percent'
+        }
+    },
+    tooltip: {
+        headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+        pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+            '<td style="padding:0"><b>{point.y:.1f} %</b></td></tr>',
+        footerFormat: '</table>',
+        shared: true,
+        useHTML: true
+    },
+    plotOptions: {
+        column: {
+            pointPadding: 0.2,
+            borderWidth: 0
+        }
+    },
+    series: [{
+        name: 'Baseline<br>(2017)',
+        data: [6]
+
+    }, {
+        name: 'Current<br>(2018)',
+        data: [7]
+
+    }, {
+        name: 'Goal<br>(2028)',
+        data: [50]
+    }]
+});
+</script>
 
 </body>
 
