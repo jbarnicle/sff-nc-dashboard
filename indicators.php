@@ -114,22 +114,8 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-4 col-md-offset-1">
-                                <h3 style="font-size: 30px;">10%</h3>
-                                <p>Children who are "school-ready" when they arrive at Kindergarten</p>
-                                <p>The mission of the North Chicago Project is to increase, substantially, the percentage of North Chicago children who will earn a quality post-secondary credential.</p>
-                            </div>
-                            <div class="col-md-7">
-                                <div id="container2" style="min-width: 310px; max-width: 800px; height: 400px; margin: 0 auto"></div>
-                            </div>
-                        </div>
-                    </div>
-              </div>
-              <div class="item">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-4 col-md-offset-1">
-                                <h3 style="font-size: 30px;">10%</h3>
-                                <p>Children who are "school-ready" when they arrive at Kindergarten</p>
+                                <h3 style="font-size: 30px;">13%</h3>
+                                <p>3rd graders who are doing math at grade level</p>
                                 <p>The mission of the North Chicago Project is to increase, substantially, the percentage of North Chicago children who will earn a quality post-secondary credential.</p>
                             </div>
                             <div class="col-md-7">
@@ -142,8 +128,8 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-4 col-md-offset-1">
-                                <h3 style="font-size: 30px;">10%</h3>
-                                <p>Children who are "school-ready" when they arrive at Kindergarten</p>
+                                <h3 style="font-size: 30px;">11%</h3>
+                                <p>8th graders who are reading at grade level</p>
                                 <p>The mission of the North Chicago Project is to increase, substantially, the percentage of North Chicago children who will earn a quality post-secondary credential.</p>
                             </div>
                             <div class="col-md-7">
@@ -156,8 +142,8 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-4 col-md-offset-1">
-                                <h3 style="font-size: 30px;">10%</h3>
-                                <p>Children who are "school-ready" when they arrive at Kindergarten</p>
+                                <h3 style="font-size: 30px;">58%</h3>
+                                <p>9th graders who are "on-track" in high school</p>
                                 <p>The mission of the North Chicago Project is to increase, substantially, the percentage of North Chicago children who will earn a quality post-secondary credential.</p>
                             </div>
                             <div class="col-md-7">
@@ -166,7 +152,22 @@
                         </div>
                     </div>
               </div>
+              <div class="item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 col-md-offset-1">
+                                <h3 style="font-size: 30px;">60%</h3>
+                                <p>Enrollees who persist into 2nd year of college</p>
+                                <p>The mission of the North Chicago Project is to increase, substantially, the percentage of North Chicago children who will earn a quality post-secondary credential.</p>
+                            </div>
+                            <div class="col-md-7">
+                                <div id="container2" style="min-width: 310px; max-width: 800px; height: 400px; margin: 0 auto"></div>
+                            </div>
+                        </div>
                     </div>
+              </div>
+
+            </div>
 
     <!-- Controls -->
                     <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
@@ -283,7 +284,7 @@ $(document).ready(function () {
         type: 'column'
     },
     title: {
-        text: 'School-ready at Kindergarten'
+        text: 'Enrollees who persist into 2nd year of college'
     },
     xAxis: {
         categories: [''
@@ -312,15 +313,15 @@ $(document).ready(function () {
     },
     series: [{
         name: 'Baseline<br>(2017)',
-        data: [6]
+        data: [60]
 
     }, {
         name: 'Current<br>(2018)',
-        data: [7]
+        data: [62]
 
     }, {
         name: 'Goal<br>(2028)',
-        data: [50]
+        data: [90]
     }]
 });
 </script>
@@ -331,7 +332,7 @@ $(document).ready(function () {
         type: 'column'
     },
     title: {
-        text: 'School-ready at Kindergarten'
+        text: '3rd graders who are doing math at grade level'
     },
     xAxis: {
         categories: [''
@@ -360,15 +361,15 @@ $(document).ready(function () {
     },
     series: [{
         name: 'Baseline<br>(2017)',
-        data: [6]
+        data: [13]
 
     }, {
         name: 'Current<br>(2018)',
-        data: [7]
+        data: [15]
 
     }, {
         name: 'Goal<br>(2028)',
-        data: [50]
+        data: [60]
     }]
 });
 </script>
@@ -379,7 +380,7 @@ $(document).ready(function () {
         type: 'column'
     },
     title: {
-        text: 'School-ready at Kindergarten'
+        text: '8th graders who are reading at grade level'
     },
     xAxis: {
         categories: [''
@@ -408,15 +409,15 @@ $(document).ready(function () {
     },
     series: [{
         name: 'Baseline<br>(2017)',
-        data: [6]
+        data: [11]
 
     }, {
         name: 'Current<br>(2018)',
-        data: [7]
+        data: [13]
 
     }, {
         name: 'Goal<br>(2028)',
-        data: [50]
+        data: [60]
     }]
 });
 </script>
@@ -427,7 +428,7 @@ $(document).ready(function () {
         type: 'column'
     },
     title: {
-        text: 'School-ready at Kindergarten'
+        text: '9th graders who are "on-track" in high school'
     },
     xAxis: {
         categories: [''
@@ -456,15 +457,15 @@ $(document).ready(function () {
     },
     series: [{
         name: 'Baseline<br>(2017)',
-        data: [6]
+        data: [58]
 
     }, {
         name: 'Current<br>(2018)',
-        data: [7]
+        data: [61]
 
     }, {
         name: 'Goal<br>(2028)',
-        data: [50]
+        data: [90]
     }]
 });
 </script>
