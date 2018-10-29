@@ -45,10 +45,10 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">Mission</a>
+                    <a href="/index.php">Mission</a>
                 </li>
                 <li>
-                    <a href="#">Indicators</a>
+                    <a href="/Indicators.php">Indicators</a>
                 </li>
                 <li>
                     <a href="#">Initiatives</a>
