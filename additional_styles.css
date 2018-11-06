@@ -1,0 +1,28 @@
+.page_title {
+    position: fixed;
+    top: 0px;
+    z-index: 999;
+    display: block;
+    margin-left: 139px;
+    background: transparent;
+    border: none;
+}
+.col-md-4 { border: 0px solid red; } 
+
+.carousel-control.left, .carousel-control.right {
+    background-image:none !important;
+    filter:none !important;
+}
+ul.dropdown-menu {
+    margin-left: 15px !important;
+    border: 1px solid red;
+}
+.glyphicon-chevron-left {
+    color: rgb(149, 206, 255);
+    left: 10% !important;
+}
+.glyphicon-chevron-right {
+    right: 1% !important;
+    margin-right: -10px;
+    color: rgb(149, 206, 255);
+}
