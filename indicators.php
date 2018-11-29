@@ -197,6 +197,8 @@ $(document).ready(function () {
     },
     yAxis: {
         min: 0,
+        max: 100,
+        tickInterval: 20,
         title: {
             text: 'Percent'
         }
@@ -243,6 +245,8 @@ $(document).ready(function () {
     },
     yAxis: {
         min: 0,
+        max: 100,
+        tickInterval: 20,
         title: {
             text: 'Percent'
         }
@@ -291,6 +295,8 @@ $(document).ready(function () {
     },
     yAxis: {
         min: 0,
+        max: 100,
+        tickInterval: 20,
         title: {
             text: 'Percent'
         }
@@ -339,6 +345,8 @@ $(document).ready(function () {
     },
     yAxis: {
         min: 0,
+        max: 100,
+        tickInterval: 20,
         title: {
             text: 'Percent'
         }
@@ -387,6 +395,8 @@ $(document).ready(function () {
     },
     yAxis: {
         min: 0,
+        max: 100,
+        tickInterval: 20,
         title: {
             text: 'Percent'
         }
