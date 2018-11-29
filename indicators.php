@@ -32,9 +32,9 @@
                 <span class="hamb-middle"></span>
                 <span class="hamb-bottom"></span>
             </button>
-            <h1 class="page_title">North Chicago Dashboard</h1>
+            <h1 class="page_title">NC Dashboard</h1>
             <div class="container">
-                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="false">
     <!-- Indicators -->
                     <ol class="carousel-indicators">
                         <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -51,7 +51,7 @@
                         <div class="row">
                             <div class="col-md-4 col-md-offset-1">
                                 <h3 style="font-size: 30px;">10%</h3>
-                                <p>Children who are "school-ready" when they arrive at Kindergarten</p>
+                                <p>North Chicago children who are on-track to earning a quality post-secondary credential.</p>
                                 <p>The mission of the North Chicago Project is to increase, substantially, the percentage of North Chicago children who will earn a quality post-secondary credential.</p>
                             </div>
                             <div class="col-md-7">
