@@ -51,12 +51,12 @@
                         <div class="row">
                             <div class="col-md-11 col-md-offset-1">
                                 <h3 style="font-size: 30px;">13%</h3>
-                                <p>3rd graders who are reading and doing math at grade level</p>
+                                <p>3rd graders reading and doing math at grade level</p>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <div id="container3"></div>
+                                <div id="container2"></div>
                             </div>
                         </div>
                     </div>
@@ -66,12 +66,12 @@
                         <div class="row">
                             <div class="col-md-11 col-md-offset-1">
                                 <h3 style="font-size: 30px;">11%</h3>
-                                <p>8th graders who are reading and doing math at grade level</p>
+                                <p>8th graders reading and doing math at grade level</p>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <div id="container4"></div>
+                                <div id="container3"></div>
                             </div>
                         </div>
                     </div>
@@ -81,12 +81,12 @@
                         <div class="row">
                             <div class="col-md-11 col-md-offset-1">
                                 <h3 style="font-size: 30px;">58%</h3>
-                                <p>9th graders who are "on-track" in high school</p>st-secondary credential.</p>
+                                <p>9th graders who are "on-track" in high school</p>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <div id="container5"></div>
+                                <div id="container4"></div>
                             </div>
                         </div>
                     </div>
@@ -101,7 +101,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <div id="container2" style="min-width: 310px; max-width: 800px; height: 400px; margin: 0 auto"></div>
+                                <div id="container5" style="min-width: 310px; max-width: 800px; height: 400px; margin: 0 auto"></div>
                             </div>
                         </div>
                     </div>
