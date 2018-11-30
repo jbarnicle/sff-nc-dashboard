@@ -46,43 +46,31 @@
 
     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
-              <div class="item active">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-4 col-md-offset-1">
-                                <h3 style="font-size: 30px;">10%</h3>
-                                <p>North Chicago children who are on-track to earning a quality post-secondary credential.</p>
-                                <p>The mission of the North Chicago Project is to increase, substantially, the percentage of North Chicago children who will earn a quality post-secondary credential.</p>
-                            </div>
-                            <div class="col-md-7">
-                                <div id="container1"></div>
-                            </div>
-                        </div>
-                    </div>
-              </div>
               <div class="item">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-4 col-md-offset-1">
+                            <div class="col-md-11 col-md-offset-1">
                                 <h3 style="font-size: 30px;">13%</h3>
-                                <p>3rd graders who are doing math at grade level</p>
-                                <p>The mission of the North Chicago Project is to increase, substantially, the percentage of North Chicago children who will earn a quality post-secondary credential.</p>
+                                <p>3rd graders who are reading and doing math at grade level</p>
                             </div>
-                            <div class="col-md-7">
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
                                 <div id="container3"></div>
                             </div>
                         </div>
                     </div>
               </div>
-              <div class="item">
+              <div class="item active">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-4 col-md-offset-1">
+                            <div class="col-md-11 col-md-offset-1">
                                 <h3 style="font-size: 30px;">11%</h3>
-                                <p>8th graders who are reading at grade level</p>
-                                <p>The mission of the North Chicago Project is to increase, substantially, the percentage of North Chicago children who will earn a quality post-secondary credential.</p>
+                                <p>8th graders who are reading and doing math at grade level</p>
                             </div>
-                            <div class="col-md-7">
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
                                 <div id="container4"></div>
                             </div>
                         </div>
@@ -91,12 +79,13 @@
               <div class="item">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-4 col-md-offset-1">
+                            <div class="col-md-11 col-md-offset-1">
                                 <h3 style="font-size: 30px;">58%</h3>
-                                <p>9th graders who are "on-track" in high school</p>
-                                <p>The mission of the North Chicago Project is to increase, substantially, the percentage of North Chicago children who will earn a quality post-secondary credential.</p>
+                                <p>9th graders who are "on-track" in high school</p>st-secondary credential.</p>
                             </div>
-                            <div class="col-md-7">
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
                                 <div id="container5"></div>
                             </div>
                         </div>
@@ -105,12 +94,13 @@
               <div class="item">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-4 col-md-offset-1">
+                            <div class="col-md-11 col-md-offset-1">
                                 <h3 style="font-size: 30px;">60%</h3>
                                 <p>Enrollees who persist into 2nd year of college</p>
-                                <p>The mission of the North Chicago Project is to increase, substantially, the percentage of North Chicago children who will earn a quality post-secondary credential.</p>
                             </div>
-                            <div class="col-md-7">
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
                                 <div id="container2" style="min-width: 310px; max-width: 800px; height: 400px; margin: 0 auto"></div>
                             </div>
                         </div>
@@ -180,63 +170,14 @@ $(document).ready(function () {
 });  
 });    
 </script>
-  
-    <script>
-
-        Highcharts.chart('container1', {
-    chart: {
-        type: 'column'
-    },
-    title: {
-        text: 'School-ready at Kindergarten'
-    },
-    xAxis: {
-        categories: [''
-        ],
-        crosshair: true
-    },
-    yAxis: {
-        min: 0,
-        max: 100,
-        tickInterval: 20,
-        title: {
-            text: 'Percent'
-        }
-    },
-    tooltip: {
-        headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
-        pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
-            '<td style="padding:0"><b>{point.y:.1f} %</b></td></tr>',
-        footerFormat: '</table>',
-        shared: true,
-        useHTML: true
-    },
-    plotOptions: {
-        column: {
-            pointPadding: 0.2,
-            borderWidth: 0
-        }
-    },
-    series: [{
-        name: 'Baseline<br>(2017)',
-        data: [6]
-
-    }, {
-        name: 'Current<br>(2018)',
-        data: [7]
-
-    }, {
-        name: 'Goal<br>(2028)',
-        data: [50]
-    }]
-});
+<script>  
 
         Highcharts.chart('container2', {
     chart: {
         type: 'column'
     },
     title: {
-        text: 'Enrollees who persist into 2nd year of college'
+        text: ''
     },
     xAxis: {
         categories: [''
@@ -286,7 +227,7 @@ $(document).ready(function () {
         type: 'column'
     },
     title: {
-        text: '3rd graders who are doing math at grade level'
+        text: ''
     },
     xAxis: {
         categories: [''
@@ -336,7 +277,7 @@ $(document).ready(function () {
         type: 'column'
     },
     title: {
-        text: '8th graders who are reading at grade level'
+        text: ''
     },
     xAxis: {
         categories: [''
@@ -386,7 +327,7 @@ $(document).ready(function () {
         type: 'column'
     },
     title: {
-        text: '9th graders who are "on-track" in high school'
+        text: ''
     },
     xAxis: {
         categories: [''
